@@ -1,0 +1,27 @@
+{
+    "keyboard_name": "Zekes Hackpad",
+    "manufacturer": "Zeke",
+    "processor": "RP2040",
+    "bootloader": "rp2040",
+    "features": {
+        "encoder": true,
+        "oled": true,
+        "rgblight": true,
+        "console": true
+    },
+    "matrix_pins": {
+        "cols": ["GP28", "GP29", "GP6", "GP7"],
+        "rows": ["GP26", "GP27"]
+    },
+    "diode_direction": "COL2ROW",
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"label":"SW14", "x":0, "y":0}, {"label":"SW11", "x":1, "y":0}, {"label":"SW06", "x":2, "y":0}, {"label":"SW03", "x":3, "y":0},
+                {"label":"SW13", "x":0, "y":1}, {"label":"SW10", "x":1, "y":1}, {"label":"SW05", "x":2, "y":1}, {"label":"SW02", "x":3, "y":1},
+                {"label":"SW01", "x":0, "y":2}, {"label":"SW04", "x":1, "y":2}, {"label":"SW09", "x":2, "y":2}, {"label":"SW12", "x":3, "y":2},
+                {"label":"ENC7_PUSH", "x":0.5, "y":3.5}, {"label":"ENC8_PUSH", "x":2.5, "y":3.5}
+            ]
+        }
+    }
+}
