@@ -26,3 +26,4 @@ Enter the bootloader in 3 ways:
 * **Physical reset button**: Briefly press the button on the back of the PCB - some may have pads you must short instead
 * **Keycode in layout**: Press the key mapped to `QK_BOOT` if it is available
 # hackpad
+*Note:* **the firmwear is not garunteed to be 100% functional yet. when i am able to recieve the hackpad itself and build it, and make sure the firmware can run, I wil reupload the github with the updated and correct firmware**
